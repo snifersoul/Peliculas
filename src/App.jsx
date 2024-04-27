@@ -24,6 +24,7 @@ export const App = () => {
         <Route path='/mejores-peliculas' element={<BestMoviesApp/>}></Route>
         <Route path='/cartelera' element={<ActualMoviesApp/>}></Route>
         <Route path='/estrenos' element={<NextMoviesApp/>}></Route>
+        <Route path='/Detalle/{:id}'> </Route>
       </Routes>
     </>
   )
